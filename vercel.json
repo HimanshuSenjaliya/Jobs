@@ -8,8 +8,8 @@
   ],
   "routes": [
     {
-      "src": "./api/cron-job",
-      "dest": "./api/cron-job.js"
+      "src": "/api/cron-job",
+      "dest": "/api/cron-job.js"
     },
     {
       "src": "/(.*)",

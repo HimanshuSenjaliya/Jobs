@@ -12,5 +12,12 @@
       "dest": "index.js"
     }
   ],
+  "crons": [
+    {
+      "path": "/api/cron-job",
+      "schedule": "*/1 * * * *",
+      "timezone": "Asia/Kolkata"
+    }
+  ],
   "buildCommand": ""
 }
